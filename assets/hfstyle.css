@@ -1,0 +1,138 @@
+body{
+    background-color: whitesmoke;
+}
+
+.heading{
+    color: black;
+    border-bottom:  solid black;
+    width: 98%;
+    padding-top: 10px;
+    height: 60px;
+    font-size: 16px;
+}
+
+.cred{
+    margin-top: 25px; 
+}
+
+label.cred_head{
+    margin-bottom: 25px;
+    padding-top: 15px;
+    cursor: default;
+    font-size: 16px;
+}
+
+.cred input.cred_box_1,
+.cred input.cred_box_2,
+.cred input.cred_box_3{
+    width: 600px;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+.cred input.cred_box_1:focus,
+.cred input.cred_box_2:focus,
+.cred input.cred_box_3:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.cred input.cred_box_1{
+   margin-left: 100px;
+}
+.cred input.cred_box_2{
+    margin-left: 132px;
+}
+.cred input.cred_box_3{
+    margin-left: 104px;
+    margin-bottom: 50px;
+}
+
+.tab_1{
+    width: 95%;
+    margin-bottom: 25px;
+    color: black;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.new_button{
+    width: 75px;
+    font: bold 14px Arial;
+    float: right;
+    margin-right: 2%;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.596);
+    color: black;
+    padding: 5px 6px 5px 6px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+table {   
+    counter-reset: rowNumber;
+    border-radius: 10px;
+}
+
+table tr td:first-child::before {  
+    counter-increment: rowNumber; 
+    content: counter(rowNumber);   
+    min-width: 1em;   
+    margin-right: 0.5em;
+}
+
+.shortcodes{
+    width: 98%;
+    border-collapse: collapse;
+}
+
+.shortcodes th, 
+.shortcodes td{
+    border: 1px solid rgba(0, 0, 0, 0.466);
+    padding: 8px;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+}
+
+.shortcodes th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgba(128, 128, 128, 0.74);
+}
+
+.edit_button{
+    width: 10%;
+    font:  14px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.596);
+    color: black;
+    padding: 3px 17px 3px 17px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.delete_button{
+    width: 10%;
+    font: 14px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.596);
+    color: black;
+    padding: 3px 10px 3px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.new_button:hover,
+.edit_button:hover,
+.delete_button:hover{
+    color: black;
+}
+
+.shortcodes tr:nth-child(even){
+    background-color: rgba(128, 128, 128, 0.164);
+}
+
+

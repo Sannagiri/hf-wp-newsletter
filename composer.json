@@ -1,0 +1,17 @@
+{
+    "name": "sannagiri/hf-newsletter",
+    "description": "Subscribe for our newsletters",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Sannagiri Raviteja",
+            "email": "sannagiriraviteja@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {"HFNewsletter\\":"./includes"}
+    }
+}
